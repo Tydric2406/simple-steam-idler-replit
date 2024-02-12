@@ -19,10 +19,6 @@ user.on('loggedOn', () => {
 });
 
 
-const steamUser2 = require('steam-user');
-const steamTotp2 = require('steam-totp');
-const keep_alive2 = require('./keep_alive.js')
-
 var username2 = process.env.username2;
 var password2 = process.env.password2;
 var shared_secret2 = process.env.shared2;
